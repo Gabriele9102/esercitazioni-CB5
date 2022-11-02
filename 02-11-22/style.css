@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.hero__card{
+    width: 320px;
+    height: 455px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: inset 0 0 6px rgb(0 0 0 / 40%);
+    border-radius: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.hero__card img{
+    width: 300px;
+    height: 180px;
+    border-radius: 10px;
+    align-self: center;
+}
+
+.hero__card h1,
+.hero__card p {
+    padding: 0 60px;
+}
