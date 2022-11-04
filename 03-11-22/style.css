@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background: #f7f1e1;
+    padding:0;
+    margin:0;
+}
+
+/*-----------------------Navbar---------------*/
+.logo{
+    width: 167px;
+    height: 90px;
+    margin: 0 123px 0 0;
+
+
+
+}
+
+a {
+    color: #d7be32;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 6px 32px;
+    border: 1px solid #d7be32;
+    border-radius: 18px;
+    margin: 30px;
+}
+  
+  
+  a:hover {
+    color: #bd6e47;
+    border: 1px solid #9b4f35;
+    box-shadow:  4px 2px 0 #9b4f35;
+  }
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+    background-color: #f7f1e1;
+
+
+}
+
+.navList{
+display: flex;
+list-style-type: none;
+gap: 10px;
+font-size: 0.9rem;
+padding: 0;
+cursor: pointer;
+
+}
+
+.hamburgerWrapper{
+  margin: 0 0 0 500px ;
+  display: none;
+
+
+
+}
+
+.hamburgerLine{
+
+  width: 30px;
+  border: solid 1px black;
+  height: 0;
+  margin: 4px;
+
+}
+/*---------------1°Sezione-------------------*/
+.containerImg {
+    margin-bottom: 120px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    top: 0;
+    left: 0;
+  }
+  .imgBack {
+    position: relative;
+    margin: none;
+    padding: 0;
+    width: 1434px;
+    height: 615px;
+    border-radius: 0 0 10px 10px;
+}
+
+.imgBack:hover {
+    opacity: 0.8;
+    transition: all 0.35s;
+}
+/*----------------2°Sezione-------------------*/
+.card_card > img{
+  width: 320px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.card_card > img:hover{
+  width: 365px;
+  height: 220px;
+  border-radius: 10px;
+  transition: all 0.6s;
+}
+
+
+.card_card{
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 368px;
+  height: 457px;
+  box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+.containerCard{
+  margin-bottom: 120px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+
+
+.card_card > h1, 
+.card_card > p{
+
+  padding: 6px 16px;
+}
+/*------------------3°Sezione-----------------*/
+.containerDiv{
+  background: #fd9380;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  border-radius: 10px;
+  margin: 0 60px;
+
+}
+
+.containerDiv{
+  margin-bottom: 150px;
+}
+
+.imgC{
+  width: 488px;
+  height: 334px;
+  border-radius: 107px 0 105px;
+}
+
+.imgC:hover {
+  opacity: 0.8;
+  transition: all 0.35s;
+  cursor: pointer;
+}
+
+.divC{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.divC > p{
+  padding: 22px 35px;
+}
+button {
+  background: #d7be32;;
+  border-radius: 5px;
+  height: 40px;
+  width: 100px;
+  border: none;
+
+}
+
+button:hover {
+  background: #d7be32;
+  height: 45px;
+  width: 105px;
+  transition: all 0,35s;
+  cursor: pointer;
+  border: 1px solid #f7f1e1;
+}
+
+/*--------------Sezione Img Partners--------------*/
+
+h1{
+  text-align: center;
+}
+
+.ContainerImg{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 0 40px;
+  flex-wrap: wrap;
+  background: white;
+  margin-bottom: 120px;
+}
+.card > img{
+
+  width: 140px;
+  height: 60px;
+  align-self: center;
+}
+
+.card img:hover{
+  width: 160px;
+  height: 80px;
+  transition: 1s;
+  cursor: pointer;
+
+}
+
+/*----------------footer----------------*/
+
+.footer_block_title{
+  color: #d7be32;
+  text-decoration: none;
+  font-size: 1rem;
+
+}
+
+.footer_block_link{
+  color: #d7be32;
+  text-decoration: none;
+  font-size: 1rem;
+
+}
+
+
+footer{
+
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 60px;
+  background: white;
+
+}
+
+
+.footer_copyright{
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.footer_block_link:hover {
+  color: #bd6e47;
+  cursor: pointer;
+}
+/*---------------------Media queries (da inserire)------------*/
+
+@media screen and (max-width: 767px) {
+  
+  .containerDiv {
+    background: #fd9380;
+    display: flex;
+    flex-direction: column;
+}
+
+.imgC{
+  padding: 20px 0 0 0;
+  width: 300px;
+  height: 200px;
+}
+.hamburgerWrapper{
+        
+  display: block;
+}
+
+.navList{
+
+  display: none;
+}
+}
+
+@media only screen and (max-width: 468px) {
+
+  .logo{
+    width: 167px;
+    height: 90px;
+    margin: 0 240px 0 190px;
+  }
+
+  .hamburgerWrapper{
+        
+    display: block;
+    margin: 0;
+  }
+
+  .containerDiv {
+    background: #fd9380;
+    display: flex;
+    flex-direction: column;
+}
+
+.imgC{
+  padding: 20px 0 0 0;
+  width: 300px;
+  height: 200px;
+}
+}
