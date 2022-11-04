@@ -80,7 +80,7 @@ const chocos = [
   {
     "id": 1,
     "name": "Black chocolate",
-    "img": "/images/chocolate_black.jpeg",
+    "img": "/esercitazioni-CB5/images/chocolate_black.jpeg",
     "desc": "he compounds in dark chocolate appear to be highly protective against the oxidation of LDL. In the long term, this should cause much less cholesterol to lodge in the arteries, resulting in a lower risk of heart disease. In fact, research show a fairly drastic improvement.",
   },
   {
