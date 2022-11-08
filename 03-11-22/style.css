@@ -55,7 +55,7 @@ cursor: pointer;
 }
 
 .hamburgerWrapper{
-  margin: 0 0 0 500px ;
+  margin: 0 0 0 260px ;
   display: none;
 
 
@@ -86,6 +86,7 @@ cursor: pointer;
     width: 1434px;
     height: 615px;
     border-radius: 0 0 10px 10px;
+    justify-content: center;
 }
 
 .imgBack:hover {
@@ -263,6 +264,11 @@ footer{
 /*---------------------Media queries (da inserire)------------*/
 
 @media screen and (max-width: 767px) {
+  .logo{
+    width: 167px;
+    height: 90px;
+    margin: 0;
+  }
   
   .containerDiv {
     background: #fd9380;
@@ -284,20 +290,31 @@ footer{
 
   display: none;
 }
+.imgBack {
+  margin: none;
+  padding: 0;
+  width: 1434px;
+  height: 343px;
+  border-radius: 0 0 10px 10px;
+
+}
 }
 
 @media only screen and (max-width: 468px) {
-
+body :hover{
+  transition: 0s;
+  cursor:none
+}
   .logo{
     width: 167px;
     height: 90px;
-    margin: 0 240px 0 190px;
+    margin: 0 126px 0 0px;
   }
 
   .hamburgerWrapper{
         
     display: block;
-    margin: 0;
+    margin: 0 0 0 -17px;
   }
 
   .containerDiv {
@@ -306,9 +323,17 @@ footer{
     flex-direction: column;
 }
 
+.imgBack {
+  height: 260px;
+
+
+}
+
 .imgC{
   padding: 20px 0 0 0;
   width: 300px;
   height: 200px;
 }
+
 }
+

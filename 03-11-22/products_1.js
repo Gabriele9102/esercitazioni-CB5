@@ -2,7 +2,7 @@ const products = [
       {
         "id": 1,
         "name": "Lindt & Sprungli",
-        "logo": "/esercitazioni-CB5/images/Lindt.png",
+        "logo": "/images/Lindt.png",
         "desc":
           "Chocoladefabriken Lindt & Sprüngli AG, more commonly known as Lindt, is a Swiss chocolatier and confectionery company founded in 1845 and known for their chocolate truffles and chocolate bars, among other sweets."
       },
