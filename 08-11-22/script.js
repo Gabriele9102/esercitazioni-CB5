@@ -43,9 +43,9 @@ fetch("https://pokeapi.co/api/v2/pokemon/?limit=150")
         //console.log(data.types[0].type.name)
         // console.log(colors.data.types[0].type.name)
         
-        const bueno = data.types[0].type.name
-        console.log(colors[bueno])
-        cardEl.style.backgroundColor = colors[bueno]
+        const coloration = data.types[0].type.name
+        console.log(colors[coloration])
+        cardEl.style.backgroundColor = colors[coloration]
 
        
         
