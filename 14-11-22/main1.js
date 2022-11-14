@@ -1,4 +1,4 @@
-import { q, gI, getId, GET } from './utils.js'
+import { q, gI, getId, GET } from './utils1.js'
 const Loader = q("lds-ring")
 const Id1 = gI("id1")
 const Id2 = gI("id2")
