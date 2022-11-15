@@ -1,0 +1,24 @@
+{
+  "people": [
+    {
+      "id": 1,
+      "name": "Light",
+      "surname": "Yagami"
+    },
+    {
+      "id": 2,
+      "name": "Elle",
+      "surname": ""
+    },
+    {
+      "id": "3",
+      "name": "Near",
+      "surname": ""
+    },
+    {
+      "id": "5c57b103-9ba7-4755-8dde-fca950fe0b88",
+      "name": "Giuseppe",
+      "surname": "Senettone"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+@font-face {
+    font-family: "Minster", Times New Roman;
+    src: url(fonts/minster1.ttf);
+  }
+
+
+html{
+    width: 367px;
+    height: 525px;
+    margin-left: 41vw;
+    background: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/842d78ee-e186-49c2-ba30-aa24109e50ad/d1l7z06-571e135f-8944-4722-9355-769addbd1c92.jpg/v1/fill/w_1024,h_768,q_75,strp/death_note_light_wallpaper_by_medetrate_d1l7z06-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzY4IiwicGF0aCI6IlwvZlwvODQyZDc4ZWUtZTE4Ni00OWMyLWJhMzAtYWEyNDEwOWU1MGFkXC9kMWw3ejA2LTU3MWUxMzVmLTg5NDQtNDcyMi05MzU1LTc2OWFkZGJkMWM5Mi5qcGciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.mGbP2Vg3FK0z88qOU7qUXcbwUKQGRwCedl7OEnfOFQg);
+
+}
+
+body{
+    font-family: 'Nothing You Could Do', cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.people{
+    position: relative;
+    display: flex;
+}
+
+
+.inputs{
+    position: relative;
+    bottom: 152px;
+    right: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+}
+
+.List{
+    color: aliceblue;
+}
+
+.Ryuk{
+    position: relative;
+    bottom: 39px;
+    right: -239px;
+    width: 160px;
+    height: 157px;
+}
+
+
+input[type=text] {
+    background: black;
+    border: 1px solid white;
+    border-radius: 2px;
+    color: white;
+}
+
+input[type=submit] {
+
+    background: black;
+    border: 1px solid white;
+    color: white;
+}
