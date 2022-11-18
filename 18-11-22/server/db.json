@@ -1,0 +1,28 @@
+{
+  "people": [
+    {
+      "id": 1,
+      "link": "https://www.animeclick.it/images/personaggi/5656.jpg",
+      "name": "Light",
+      "surname": "Yagami"
+    },
+    {
+      "id": 2,
+      "link": "https://img1.ak.crunchyroll.com/i/spire4/79b9b2c4792c7dfd5813b50da8b6dde01500002496_large.jpg",
+      "name": "Elle",
+      "surname": ""
+    },
+    {
+      "id": "e77ace44-36ee-4ede-adab-102eacb96511",
+      "link": "https://edgemony.com/wp-content/uploads/2022/07/giuseppesenettone.jpg",
+      "name": "Peppino",
+      "surname": "Senettò"
+    },
+    {
+      "id": "98c001aa-92c6-4309-81ab-ef9e894adcc6",
+      "link": "",
+      "name": "",
+      "surname": ""
+    }
+  ]
+}
