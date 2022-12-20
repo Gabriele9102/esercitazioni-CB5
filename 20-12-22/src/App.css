@@ -1,0 +1,40 @@
+:root{
+  --black: #000;
+  --green: #00BB2D;
+  --skyblue: #add8e6;
+}
+
+body{
+  background: var(--skyblue);
+}
+
+h1{
+  color: var(--black);
+  margin: 0;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.Btn{
+  font-size: large;
+  width: 8rem;
+  height: 5rem;
+  background: transparent;
+  border: 1px solid var(--black);
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  border-radius: 1rem;
+}
+
+.Btn:hover{
+
+  background: var(--green);
+}
