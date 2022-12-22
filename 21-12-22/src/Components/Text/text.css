@@ -1,0 +1,18 @@
+:root{
+    --black: #000;
+    --green: #00BB2D;
+    --skyblue: #add8e6;
+  }
+
+.Text{
+    color: var(--black);
+    margin: 0;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  
+
+

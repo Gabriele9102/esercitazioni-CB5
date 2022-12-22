@@ -1,0 +1,17 @@
+:root{
+  --black: #000;
+  --green: #00BB2D;
+  --skyblue: #add8e6;
+}
+
+body{
+  background: var(--skyblue);
+}
+
+.text-lg{
+  font-size: 1.2rem;
+}
+
+.App .mb-sm{
+  margin-bottom: 2rem;
+}
