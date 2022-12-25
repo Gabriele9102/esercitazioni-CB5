@@ -1,0 +1,50 @@
+:root{
+    --nav : #000;
+    --text : #fff;
+}
+
+.Headers{
+    margin: 0 0 2rem;
+    padding: 0;
+}
+
+.containerH{
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+    background: var(--nav);
+    
+    .logo{
+        img{
+            width: 2.5rem;
+            height: auto;
+        }
+    }
+    
+    .nav{
+        
+            .menu{
+                display: flex;
+                gap: 4rem;
+                margin: 0;
+                padding: 20px;
+                
+
+                
+                li{
+                    display: inline-block;
+                    
+                }
+                
+                a{
+                    color: var(--text);
+                    text-decoration: none;
+                }
+
+                a:hover{
+                    text-decoration: underline;
+                }
+            }
+        }
+    
+}

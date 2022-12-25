@@ -1,0 +1,33 @@
+:root{
+    --black: #000;
+    --green: #00BB2D;
+    --red: #ff0000;
+    --skyblue: #add8e6;
+}
+
+
+.Button{
+    background: transparent;
+    border: 1px solid;
+    border-radius: .3em;
+    color: var(--black);
+    cursor: pointer;
+    padding: .4em .6em;
+    transition: all .3s;
+}
+
+.Button:hover{
+    text-decoration: underline;
+}
+
+.Button--variant-first:hover{
+    background: var(--red);   
+    border: none;
+}
+
+.Button--variant-second:hover{
+    background: var(--green);
+    border: none;
+    
+    
+}
