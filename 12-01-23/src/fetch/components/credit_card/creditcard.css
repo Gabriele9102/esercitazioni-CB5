@@ -1,0 +1,96 @@
+body{
+  background: lightblue;
+  
+}
+.container{
+  background: url(https://img.archiexpo.it/images_ae/photo-mg/56461-8643545.jpg);
+  border-radius: 12px;
+  box-shadow: 0 0 5px 0;
+  width: 400px;
+  height: 220px;
+ margin: auto;
+  z-index: 1;
+  
+}
+
+
+.container_id_tipo{
+ display: flex;
+ justify-content: space-around
+}
+
+.container_info{
+  margin-top: -54px;
+  display: flex;
+  flex-direction: column
+}
+
+.chip{
+  margin-top: 10px;
+  background: url(https://usa.visa.com/dam/VCOM/regional/na/us/pay-with-visa/images/card-chip-800x450.png);
+  z-index: 2;
+  width: 72px;
+  height: 58px;
+  background-size: 100px 70px;
+  background-repeat: no-repeat;
+} 
+
+
+.card_number{
+  margin-top: 10px; ;
+  padding-left: 45px;
+  font-size: 28px;
+}
+
+.expiry_date{
+  padding-left: 290px ;
+  margin-top: 45px;
+}
+
+button {
+  margin-top: 30px;
+}
+.bn13 {
+  display: inline-block;
+  padding: 0.65em 1.6em;
+  border: 3px solid #ffffff;
+  border-radius: 0.5em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: #bcbcbc;
+  text-align: center;
+  transition: all 0.2s;
+  animation: bn13bouncy 5s infinite linear;
+  position: relative;
+}
+
+.bn13:hover {
+  background-color: white;
+  color: #000000;
+}
+
+@keyframes bn13bouncy {
+  0% {
+    top: 0em;
+  }
+  40% {
+    top: 0em;
+  }
+  43% {
+    top: -0.9em;
+  }
+  46% {
+    top: 0em;
+  }
+  48% {
+    top: -0.4em;
+  }
+  50% {
+    top: 0em;
+  }
+  100% {
+    top: 0em;
+  }
+}
