@@ -1,0 +1,63 @@
+.Friend {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .Friend img {
+    width: 3rem;
+    height: auto;
+    border-radius: 100%;
+    background-color: white;
+    box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+  }
+  
+  .Text__Container {
+    display: none;
+  }
+  
+  .nickName{
+    font-size: x-small;
+    font-weight: bold;
+    color: rgb(230, 221, 221);;
+  }
+
+  .online{
+    position: relative;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: red;
+    margin-top: -19px;
+  }
+
+  @media (min-width: 800px) {
+    .Friend img {
+    width: 80px;
+    height: 80px;
+    }
+    .Text__Container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    }
+    .nickName{
+    display: none;
+    }
+
+    .city{
+    margin: 0px;
+    }
+
+    .Friend{
+    border-bottom: 1px solid white;
+    }
+    .online{
+    width: 18px;
+    height: 18px;
+    margin-top: -23px;
+    margin-left: 4px;
+    }
+  }
+  

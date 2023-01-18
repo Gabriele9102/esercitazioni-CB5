@@ -1,0 +1,62 @@
+.App {
+  background: rgb(29, 155, 240) ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.heroSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sectionFriends{
+  width: 250px;
+}
+
+
+
+.popular{
+  display: none;
+}
+
+@media (min-width: 800px) {
+  
+  body{
+    overflow-y: hidden;
+  }
+  
+  .App {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+
+  }
+  
+  .sectionFriends {
+    padding: 2px;
+    background: rgb(39, 161, 241);
+    height: 100vh;
+    width: 400px;
+    overflow-y: scroll;
+    overflow-x: hidden ;
+  }
+
+  .heroSection {
+    width: 100%;
+    height: 100vh;
+    overflow-y: scroll;
+    
+  }
+  
+  .popular {
+    display: block;
+    padding: 24px;
+    background:rgb(39, 161, 241);
+    width: 25%;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+}
