@@ -1,0 +1,16 @@
+.FriendList {
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    overflow-x: auto;
+}
+
+
+
+@media (min-width: 800px) {
+    .FriendList {
+        flex-direction: column;
+    }
+  }
+  
