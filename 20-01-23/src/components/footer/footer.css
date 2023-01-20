@@ -1,0 +1,30 @@
+.footer{
+    background: rgb(29, 155, 240);
+    border-radius: 6px 6px 0 0;
+    height: 50px;
+}
+
+.footer > ul {
+    display: flex;
+    justify-content: center;
+    margin: 2px 0;
+    padding-top: 10px;
+    list-style: none;
+
+}
+
+.footer a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 0 20px;
+    font-size: small;
+}
+
+
+@media (min-width: 800px) {
+    .footer a {
+        font-size: medium;
+    }
+}
+

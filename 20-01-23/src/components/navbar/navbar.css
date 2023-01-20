@@ -1,0 +1,35 @@
+
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 6px 28px;
+    background: #1d9bf0;
+    margin: 2px 0px;
+    border-radius: 6px;
+}
+.navbar > img{
+
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    cursor: pointer;
+    margin-top: 7px;
+
+}
+
+.navbar > ul {
+
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    
+
+}
+
+.navbar a {
+
+    text-decoration: none;
+    color: white;
+    
+
+}
