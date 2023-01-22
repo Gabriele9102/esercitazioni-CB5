@@ -1,0 +1,71 @@
+
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 6px 28px;
+    background: #1d9bf0;
+    margin: 2px 0px;
+    border-radius: 6px;
+}
+.navbar > img{
+
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    cursor: pointer;
+    margin-top: 7px;
+
+}
+
+.navbar > ul {
+
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    
+
+}
+
+.userPhoto{
+    width: 3rem;
+    height: auto;
+    border-radius: 100%;
+    margin: -12px 0;
+}
+
+.notLoggedUser{
+        position: relative;
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        background: rgb(247, 31, 31);
+        transform: translate(7px, 6px);
+}
+
+.loggedUser{
+
+    position: relative;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: rgb(62, 240, 18);
+    transform: translate(30px, 20px);
+}
+
+.logUser{
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.logUser:hover{
+    color: lightblue;
+}
+
+.navbar a {
+
+    text-decoration: none;
+    color: white;
+    
+
+}

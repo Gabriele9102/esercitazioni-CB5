@@ -1,0 +1,15 @@
+.NewMessageInp > form{
+    padding: 15px 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+}
+
+input{
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.4);
+    border-radius: 6px;
+    border: none;
+    width: 300px;
+    height: 25px;
+}
